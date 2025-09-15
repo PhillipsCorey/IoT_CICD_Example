@@ -30,9 +30,6 @@ jobs:
 
       - name: Run ESLint
         run: npm run lint
-      
-      - name: Run lint
-        run: eslint src
 
       # FOR IT TO WORK WITH GITHUB Actions and push to Docker registry do the following
       # In your repo settings, go to Settings → Secrets and variables → Actions → Secrets, and add:
